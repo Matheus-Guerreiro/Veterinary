@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    margin: 44px 0px 144px 76px;
+    margin: 44px 0px 90px 76px;
 }
 
 .link-navbar {
@@ -20,7 +20,7 @@
     cursor: pointer;
 }
 
-.link-navbar:hover{
+.link-navbar:hover {
     color: #676868;
 }
 
@@ -35,9 +35,10 @@
     line-height: 29px;
     color: #FFFFFF;
     cursor: pointer;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.308);
 }
 
-.button-login:hover{
+.button-login:hover {
     background: #5a50c9;
 }
 
@@ -46,6 +47,76 @@
 }
 
 img {
+    display: flex;
     width: 60vw;
     height: 80vh;
+    margin-bottom: 100px;
+    margin-left: -80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column1 {
+    display: flex;
+    position: relative;
+}
+
+.column2 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    margin-bottom: 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-bottom: 50px;
+}
+
+.button-explore {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    width: 17vw;
+    height: 10vh;
+    background: #ADFF00;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.425);
+}
+
+.button-explore:hover {
+    background: #a6f300;
+}
+
+.button-explore:active {
+    background: #96db00;
 }
