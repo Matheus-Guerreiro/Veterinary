@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <title>Veterinary</title>
 </head>
 
 <body>
-    <div class="navbar">
+
+    <img class="icon" src="./assets/menu-regular-24.png" alt="menu" onclick="showMenu()">
+
+    <div class="navbar" id="navbar-id">
         <a class="link-navbar">HOME</a>
         <a class="link-navbar">ABOUT</a>
         <a class="link-navbar">PRODUCT</a>
         <a class="link-navbar">SERVICE</a>
         <a class="link-navbar">CONTACT</a>
         <button class="button-login">LOGIN</button>
-        <img class="icon" src="./assets/menu-regular-24.png" alt="menu">
     </div>
+
     <div class="container">
         <div class="column1">
             <img class="vet" src="./assets/Illustration 1.svg" alt="Veterinary-and-dog">
@@ -40,5 +44,22 @@
         </div>
     </div>
 </body>
+
+<script>
+
+    const menuList = document.getElementById("navbar-id")
+
+    menuList.style.maxHeight = "0px"
+
+    function showMenu() {
+        if (menuList.style.maxHeight == "0px") {
+            menuList.style.maxHeight = "490px"
+        } else {
+            menuList.style.maxHeight = "0px"
+        }
+    }
+
+
+</script>
 
 </html>

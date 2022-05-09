@@ -28,6 +28,7 @@
     width: 130px;
     height: 41px;
     border: none;
+    margin-left: 15px;
     border-radius: 20px;
     background: #665AE1;
     font-weight: 600;
@@ -125,39 +126,84 @@ p {
     background: #96db00;
 }
 
-.icon{
+.icon {
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
     display: none;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1000px) {
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
     }
 
-    .navbar{
+    .navbar {
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
-        padding-right: 250px;
+        height: 320px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        overflow: hidden;
+        transition: all 1.4s 0.1s ease-in-out;
     }
-    
-    .link-navbar{
+
+    .link-navbar {
+        margin-top: 10px;
         margin-bottom: 15px;
         margin-right: 15px;
     }
 
-    .button-login{
-        position: absolute;
-        left: 30px;
-        bottom: 540px;
+    .icon {
+        display: block;
     }
 
-    
+    .column1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 350px;
+        height: 400px;
+    }
 
-   
+    .column2 {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
 
+    h1 {
+        display: flex;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+    }
 
-  
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    p {
+        width: 320px;
+        display: flex;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .vet {
+        width: 126%;
+        height: 70%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
 }
