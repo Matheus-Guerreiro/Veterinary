@@ -5,7 +5,7 @@ Veterinary Login Page.
 
 <img src="./assets/Print web.png" alt="Print screen">
 
-<img src="./assets/Print mobile.png" alt="Print screen mobile">
+<img src="./assets/Print mobile .png" alt="Print screen mobile">
 
 ## 🤝 Colaboradores
 
